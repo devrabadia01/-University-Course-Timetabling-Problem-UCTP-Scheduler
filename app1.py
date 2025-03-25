@@ -33,7 +33,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- University Logo and Name (Top-Left) ---
-logo_path = "C:/Users/DELL/Desktop/Basic model/unfc.png"
+logo_path = Basic model/unfc.png"
 logo = Image.open(logo_path)
 col_logo, col_title = st.columns([1, 8])
 with col_logo:
@@ -116,12 +116,12 @@ if st.session_state.step == "Splash":
             - 🧠 Run the smart scheduler
             - 📊 Download and explore your timetable
         """)
-        st.image("C:/Users/DELL/Desktop/Basic model/giphy.webp", width=150)
+        st.image("Basic model/giphy.webp", width=150)
         if st.button("🚀 Start Scheduling"):
             st.session_state.step = "Step 1"
 
     with col2:
-        st.image("C:/Users/DELL/Desktop/Basic model/professor.jpg", width=250)
+        st.image("Basic model/professor.jpg", width=250)
         st.markdown("<h4 style='text-align: left-aligned;'>Hany Osman</h4>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: left-aligned;'>Associate Professor of Data Analytics</p>", unsafe_allow_html=True)
 
@@ -137,10 +137,10 @@ elif st.session_state.step == "Step 1":
     st.subheader("👨‍💻 Meet the Developers")
     cols = st.columns(4)
     devs = [
-        ("Dev", r"C:/Users/DELL/Desktop/Basic model/dev.png"),
-        ("Catherine", r"C:/Users/DELL/Desktop/Basic model/Catherine.png"),
-        ("Miko", r"C:/Users/DELL/Desktop/Basic model/Miko.png"),
-        ("Rosario", r"C:/Users/DELL/Desktop/Basic model/Rose.png")
+        ("Dev", "Basic model/dev.png"),
+        ("Catherine", "Basic model/Catherine.png"),
+        ("Miko", "Basic model/Miko.png"),
+        ("Rosario", "Basic model/Rose.png")
     ]
     for col, (name, img_path) in zip(cols, devs):
         image = Image.open(img_path).resize((250, 250))
