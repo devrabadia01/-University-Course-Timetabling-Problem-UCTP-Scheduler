@@ -33,7 +33,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- University Logo and Name (Top-Left) ---
-logo_path = Basic model/unfc.png"
+logo_path = "Basic model/unfc.png"
 logo = Image.open(logo_path)
 col_logo, col_title = st.columns([1, 8])
 with col_logo:
