@@ -37,7 +37,7 @@ logo_path = "Basic model/unfc.png"
 logo = Image.open(logo_path)
 col_logo, col_title = st.columns([1, 8])
 with col_logo:
-    st.image(logo, width=300)
+    st.image(logo, width=600)
 with col_title:
     st.markdown("## 🏛️ UNF University\n### 🎓 University Course Timetabling Problem (UCTP) Scheduler")
 
