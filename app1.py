@@ -137,7 +137,7 @@ elif st.session_state.step == "Step 1":
     st.subheader("👨‍💻 Meet the Developers")
     cols = st.columns(4)
     devs = [
-        ("Dev", "Basic model/dev.png"),
+        ("Dev", "Basic model/Dev.png"),
         ("Catherine", "Basic model/Catherine.png"),
         ("Miko", "Basic model/Miko.png"),
         ("Rosario", "Basic model/Rose.png")
